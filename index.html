@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the canteen! Here are our street foods menu.</h1>
+    <h2>Prices are shown below. Click finalize order button once you're sure with your orders.</h2>
+    <h3>
+        <ul>
+            <li>Burger - 60 pesos</li>
+            <li>Fries - 50 pesos</li>
+            <li>Fishbol - 20 pesos</li>
+            <li>Kikiam - 25 pesos</li>
+        </ul>
+    </h3>
+    <button type="button" id="add"><h1>Add a food item <br></h1></button>
+    
+    <div id="totalValue" data-total-value="0"></div>
+
+
+    <div class="container">
+        <div class="orders">
+            <form>
+                <label><p>Choice</p></label>
+                <select name="foods" class="foodie">
+                    <option value="60">Burger</option>
+                    <option value="50">Fries</option>
+                    <option value="20">Fishbol</option>
+                    <option value="25">Kikiam</option>
+                </select>          
+                <label><p>Quantity</p></label>
+                <input type="number" class="foodies"><br><br>
+            </form> 
+        </div>
+    </div>
+    <button type="button" id="finalize"><h1>Finalize order</h1></button>
+
+    <div class="try">
+        <form>      
+            <label><h2>Cash</h2></label>
+            <input type="number" id="payment">
+            <input type="submit" id="pay" value="Pay!">      
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

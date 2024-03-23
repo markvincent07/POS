@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+}
+
+#add {
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    margin-left: 20px;
+}
+
+.foodie, .foodies, #payment {
+    width: 200px;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+#finalize {
+    width: 150px;
+    margin-left: 70px;
+}
+
+.try {
+    width: auto;
+    height: auto;
+}
+
+#pay {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
