@@ -116,4 +116,7 @@ document.getElementById('pay').addEventListener('click', function(event) {
 
     // Process the payment
     processPayment();
+
+    // Refresh the tab
+    location.reload();
 });
